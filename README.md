@@ -17,9 +17,9 @@ Records changes to the repository
 
 6. git status <br>
 Shows the status of changes as untracked, modified, or staged.<br>
-Untracked : Not currently being tracked by Git. 
-Modified  : Changed in your working directory
-staged    : Marked to be included in the next commit.
+Untracked : Not currently being tracked by Git.  <br>
+Modified  : Changed in your working directory   <br>
+staged    : Marked to be included in the next commit. 
 
 7. git push origin main <br>
 Pushes committed changes to a repository
