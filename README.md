@@ -33,11 +33,15 @@ Applies the most recent stash.
 
 
 <!--  -->
+
 7. git status <br>
 Shows the status of changes as untracked, modified, or staged.<br>
 Untracked : Not currently being tracked by Git.  <br>
 Modified  : Changed in your working directory   <br>
 staged    : Marked to be included in the next commit. 
+
+
+<!-- Branch  -->
 
 8. git branch <br>
 Lists all local branches
@@ -47,6 +51,19 @@ Creates a new branch with the specified name.
 
 10. git checkout {Name of branch} <br>
 Switches to the specified branch.
+
+11. git checkout -b {Name of branch} <br>
+Creates and switches to a new branch.
+
+12. git merge {Name of branch} <br>
+Merges the contents of another branch into the current branch.
+
+13. git branch -d {Name of branch} <br>
+Delete a branch (if it is not merged).
+
+
+
+
 
 11. git rm {FileName} <br>
 Removes a file from both the working directory and the Git repository.
