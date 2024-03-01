@@ -76,10 +76,10 @@ Delete a branch (if it is not merged).
 17. git log <br>
 show all commit in the current branch. 
 
-18. git log branchA..branchB
+18. git log branchA..branchB <br>
 show the commit on branchB that are not on branchA.
 
-19. git diff branchA..branchB
+19. git diff branchA..branchB <br>
 show the diff of what is in branchB that are not on branchA.
 
 
