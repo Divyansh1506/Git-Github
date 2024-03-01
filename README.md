@@ -1,9 +1,9 @@
-<!-- Commands:  -->
+##Commands: 
 
 
 
 
-<!-- Git Setup -->
+##Git Setup
 
 1. git init <br>
 Initializes a new Git repository.
@@ -14,7 +14,7 @@ Copies a repository from a specified URL
 
 
 
-<!-- Add Files to Repository -->
+##Add Files to Repository
 
 3. git add {FileName} <br>
 Add changes in a file
@@ -42,7 +42,7 @@ fetches and merges changes from a remote repository into the current branch.
 
 
 
-<!--  -->
+##
 
 10. git status <br>
 Shows the status of changes as untracked, modified, or staged.<br>
@@ -53,7 +53,7 @@ staged    : Marked to be included in the next commit.
 
 
 
-<!-- Branch  -->
+##Branch 
 
 11. git branch <br>
 Lists all local branches
@@ -85,7 +85,7 @@ show the diff of what is in branchB that are not on branchA.
 
 
 
-<!--  -->
+##
 
 20. git rm {FileName} <br>
 Removes a file from both the working directory and the Git repository.
