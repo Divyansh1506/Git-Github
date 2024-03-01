@@ -1,5 +1,8 @@
 <!-- Commands:  -->
 
+
+
+
 <!-- Git Setup -->
 
 1. git init <br>
@@ -7,6 +10,8 @@ Initializes a new Git repository.
 
 2. git clone {URL} <br>
 Copies a repository from a specified URL
+
+
 
 
 <!-- Add Files to Repository -->
@@ -31,45 +36,65 @@ Temporarily saves changes, reverting the working directory to the last commit.
 Applies the most recent stash.
 (Ex: Ctrl-v)
 
+9. git pull origin {branch name} <br>
+fetches and merges changes from a remote repository into the current branch.
+
+
+
 
 <!--  -->
 
-7. git status <br>
+10. git status <br>
 Shows the status of changes as untracked, modified, or staged.<br>
 Untracked : Not currently being tracked by Git.  <br>
 Modified  : Changed in your working directory   <br>
 staged    : Marked to be included in the next commit. 
 
 
+
+
 <!-- Branch  -->
 
-8. git branch <br>
+11. git branch <br>
 Lists all local branches
 
-9. git branch {Name of branch} <br>
+12. git branch {Name of branch} <br>
 Creates a new branch with the specified name.
 
-10. git checkout {Name of branch} <br>
+13. git checkout {Name of branch} <br>
 Switches to the specified branch.
 
-11. git checkout -b {Name of branch} <br>
+14. git checkout -b {Name of branch} <br>
 Creates and switches to a new branch.
 
-12. git merge {Name of branch} <br>
+15. git merge {Name of branch} <br>
 Merges the contents of another branch into the current branch.
 
-13. git branch -d {Name of branch} <br>
+16. git branch -d {Name of branch} <br>
 Delete a branch (if it is not merged).
 
+17. git log <br>
+show all commit in the current branch. 
+
+18. git log branchA..branchB
+show the commit on branchB that are not on branchA.
+
+19. git diff branchA..branchB
+show the diff of what is in branchB that are not on branchA.
 
 
 
 
-11. git rm {FileName} <br>
+<!--  -->
+
+20. git rm {FileName} <br>
 Removes a file from both the working directory and the Git repository.
 
-12. git remote -v <br>
+21. git mv {old Path} {New path} <br>
+change the existing file path
+
+22. git remote -v <br>
 Lists all remote repositories and their URLs
 
-13. git remote add origin {URL} <br>
+23. git remote add origin {URL} <br>
 Adds a new remote repository with a specified name and URL.
